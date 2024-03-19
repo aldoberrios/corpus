@@ -1,64 +1,56 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Aldo Berrios's personal website</title>
-
-    <meta name="description" property="og:description" content="A personal website" />
-    <meta name="apple-mobile-web-app-title" content="Aldo Berrios Castillo personal website" />
-
-    <link rel="stylesheet" href="https://aldoberrios.cl/assets/syntax.css" />
-    <link rel="stylesheet" href="https://aldoberrios.cl/assets/primer-build.css" />
-    <link rel="stylesheet" href="https://aldoberrios.cl/assets/style.css" />
+ <!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Template for documents</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script src="https://www.w3schools.com/lib/w3.js"></script> 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+<body>
 
 
+ <!-- Navigation (Stays on Top) -->
+<div class="w3-top w3-indigo w3-center">
+  <a href="#home" class="w3-bar-item w3-button">INTRO</a>
+  <a href="#home" class="w3-bar-item w3-button">TOP</a> 
+</div> 
 
-<style>
-  #whole {width:95%;grid-area: main;}
+<div id="home" class="w3-content w3-padding-64">
 
-   #wrapper {margin:auto; width:75%}
-   img {min-width:90%}
-   #content {padding-top:50px;}
-   #menu {position:fixed;background:#fff;}
-   h1 {padding-top: 70px;}
+  <div id="intro" class="w3-container w3-padding-32">
+  <h1>Introducción</h1>
+  <p>Diferentes diccionarios históricos de Mapudungun. </p>
+  </div>
 
-</style>
+<ul class="w3-ul w3-card-4 w3-padding-16 w3-round" style="width:100%">
+  <li class="w3-bar">    <a href="http://aldoberrios.cl/valdivia">
+    <img src="https://aldoberrios.cl/corpus/Valdivia/imgs/001.jpg" class="w3-bar-item w3-round" style="width:85px">
+    <div class="w3-bar-item">
+      <span class="w3-large">1624 - Valdivia - Sermon</span><br>
+      <span>Document...</span>
+    </div></a>
+  </li>
 
-  </head>
+  <li class="w3-bar">    <a href="http://aldoberrios.cl/valdivia">
+    <img src="https://aldoberrios.cl/corpus/Valdivia/imgs/001.jpg" class="w3-bar-item w3-round" style="width:85px">
+    <div class="w3-bar-item">
+      <span class="w3-large">1764 - Febrés - ----</span><br>
+      <span>Document...</span>
+    </div></a>
+  </li>
 
-  <body class="bg-gray">
-    <div id="holy" class="container-lg bg-white h-100">
-      <div id="header" class="px-1 bg-white">
-        <nav class="UnderlineNav UnderlineNav--right px-2">
-          <a class="UnderlineNav-actions muted-link h2" href="index.html">Aldo Berrios Castillo</a>
-          <div class="UnderlineNav-body">
-            <a class="UnderlineNav-item" href="https://aldoberrios.cl/index.html"><span>Home</span></a>
-            <a class="UnderlineNav-item" href="https://aldoberrios.cl/research.html"><span>Research</span></a>
-            <a class="UnderlineNav-item" href="https://aldoberrios.cl/spanish.html"><span>Español</span></a>
-          </div>
-        </nav>
-      </div>
-
-      <div role="main" id="whole" class="holy-main markdown-body px-4 bg-white">
-
-        <article>
-
-          <h1>Valdivia</h1>
-          <a href="https://aldoberrios.cl/valdivia">Go to the link</a>
-
-        </article>
+</ul>
 
 
 
-      </div>
 
 
-      <div id="footer" class="pt-2 pb-3 bg-white text-center">
-        <span class="text-small text-gray">
-          <p>This is a footer with small text.</p>
-        </span>
-      </div>
-    </div>
-  </body>
-</html>
+
+</div>
+
+
+<footer class="w3-container w3-blue w3-center">
+  <p>Valdivia, L. de. (1606). <i>Arte y gramatica general de la lengua que corre en todo el Reyno de Chile, con un vocabulario, y confessonario</i>. Thomás López de Haro.</p>
+</footer>
+
+</body>
+</html> 
