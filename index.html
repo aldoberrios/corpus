@@ -1,20 +1,20 @@
  <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title>Historical Documents of Mapudungun</title>
+<title>Lector de documentos históricos de Mapudungun</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script src="https://www.w3schools.com/lib/w3.js"></script> 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="assets/style.css"> <!-- my CSS -->
 <body>
 
  <!-- Navigation (Stays on Top) -->
 <div class="w3-top w3-indigo w3-center w3-border-0">
   <a href="#home" class="w3-bar-item w3-button w3-hover-opacity w3-yellow">INTRO</a>
-  <a href="Valdivia/index.html" class="w3-bar-item w3-button w3-hover-opacity w3-amber">Valdivia I</a> 
-  <a href="VDoctConf/index.html" class="w3-bar-item w3-button w3-hover-opacity w3-amber">Valdivia II</a> 
-  <a href="Sermon/index.html" class="w3-bar-item w3-button w3-hover-opacity w3-amber">Valdivia Sermon</a> 
-
-  <a href="Febres/index.html" class="w3-bar-item w3-button w3-hover-opacity  w3-amber">Febrés</a> 
+  <a href="1606_Valdivia/index.html" class="w3-bar-item w3-button w3-hover-opacity w3-amber">Valdivia</a>
+  <a href="1621_Sermon/index.html" class="w3-bar-item w3-button w3-hover-opacity w3-amber">Valdivia's Sermon</a>
+  <a href="1764_Febres/index.html" class="w3-bar-item w3-button w3-hover-opacity  w3-amber">Febrés</a> 
+  <a href="1777_Havestadt/index.html" class="w3-bar-item w3-button w3-hover-opacity w3-amber">Havestadt</a>
   <!-- <a href="#home" class="w3-bar-item w3-button w3-hover-opacity">TOP</a> -->  
 </div> 
 
@@ -22,7 +22,7 @@
 
   <div id="intro" class="w3-container w3-padding-32">
   <h1>Introducción</h1>
-  <p>Si no te gusta usar un lector de PDF para consultar información histórica de Mapudungun como a mí, 
+  <p>Si no te gusta usar un lector de PDF para consultar información histórica de Mapudungun —como a mí—, 
   en este lugar encontrarás paǵinas web con imágenes de libros históricos tomadas directamente de las digitalizaciones. Las distintas secciones se pueden consultar y acceder directamente por medio de un menú superior con hipervínculos.</p>
   <p>Un antecedente de este formato es el Diccionario Mapudungun-Español de Augusta que se puede consultar en este <a href="http://fiestoforo.cl/dungun/">enlace</a>.</p>
   <p>Los PDFs originales de donde se extrajeron las imágenes se consultaron en distintos repositorios, principalmente de <a href="https://www.memoriachilena.gob.cl/">Memoria Chilena</a> y del <a href="http://www.amc-resources.lel.ed.ac.uk/CHM/">Corpus of Historical Mapudungun</a>. Recomendamos también crear una cuenta para consultar el <a href="https://www.chandia.net/corlexim/en">Corpus Lexicográfico del Mapudüngun</a> (CORLEXIM).</p>
@@ -31,12 +31,13 @@
   </div>
 
 
-<ul class="w3-ul w3-card-4 w3-padding-16 w3-round" style="width:100%">
-
-
+<div class="row">
+<!-- Column 1 -->
+  <div class="column">
+    <ul class="w3-ul w3-padding-16 w3-round" style="width:100%">
   <li class="w3-bar">
-    <a href="Valdivia/index.html">
-    <img src="imgs/valdivia.png" class="w3-bar-item w3-round" style="width:100px">
+    <a href="1606_Valdivia/index.html">
+    <img src="imgs/valdivia.png" class="w3-bar-item w3-round" style="width:200px">
     <div class="w3-bar-item">
       <span class="w3-large">1606 - Valdivia - Vocabulario</span><br>
       <span>Valdivia, L. de. (1606). <i>Arte y gramatica general de la lengua <br> que corre en todo el Reyno de Chile, con un vocabulario, y confessonario</i>. <br> Thomás López de Haro.
@@ -44,43 +45,99 @@
     </div>
   </a>
   </li>
+</ul>
+  </div> <!-- End Column 1-->
+
+<!-- Column 2 -->
+  <div class="column">
+    <ul class="w3-ul w3-padding-16 w3-round" style="width:100%">
+      <li class="w3-bar">
+        <a href="1606_Valdivia/VDoctConf/index.html">
+        <img src="imgs/valdivia_sm.jpg" class="w3-bar-item w3-round" style="width:200px">
+        <div class="w3-bar-item">
+          <span class="w3-large">1606 - Valdivia - Doctrina y Confessionario</span><br>
+          <span>Valdivia, L. de. (1606). <i>Arte y gramatica general de la lengua <br> que corre en todo el Reyno de Chile, con un vocabulario, y confessonario</i>. <br> Thomás López de Haro.
+          </span>
+        </div>
+      </a>
+      </li>
+    </ul>
+  </div> <!-- End Column 2-->
+
+<!-- Column 3 -->
+  <div class="column">
+    <ul class="w3-ul w3-padding-16 w3-round" style="width:100%">
+      <li class="w3-bar">
+        <a href="1621_Sermon/index.html">
+        <img src="imgs/sermon_sm.jpg" class="w3-bar-item w3-round" style="width:200px">
+        <div class="w3-bar-item">
+          <span class="w3-large">1621 - Valdivia - Sermon</span><br>
+          <span>Valdivia, L. de. (1621). <i>Sermón en lengua de Chile</i>. Valladolid.</span>
+        </div>
+      </a>
+      </li>
+    </ul>
+  </div> <!-- End Column 3 -->
+</div> <!-- End Row -->
 
 
+
+<div class="row">
+
+
+<!-- Column 1 -->
+  <div class="column">
+
+    <ul class="w3-ul w3-padding-16 w3-round" style="width:100%">
+      <li class="w3-bar">
+        <a href="1764_Febres/index.html">
+        <img src="imgs/febres.png" class="w3-bar-item w3-round" style="width:200px">
+        <div class="w3-bar-item">
+          <span class="w3-large">1764 - Febrés - Calepino</span><br>
+          <span>Febrés, A. (1764). <i>Arte de la lengua general del reyno de Chile</i>.<br> Calle de la Encarnación.</span>
+        </div>
+      </a>
+      </li>
+    </ul>
+
+
+  </div> <!-- End Column 1-->
+
+<!-- Column 2 -->
+  <div class="column">
+ <ul class="w3-ul w3-padding-16 w3-round" style="width:100%">
   <li class="w3-bar">
-    <a href="VDoctConf/index.html">
-    <img src="imgs/valdivia_sm.jpg" class="w3-bar-item w3-round" style="width:100px">
+    <a href="1777_Havestadt/index.html">
+    <img src="imgs/Havestadt_1.jpg" class="w3-bar-item w3-round" style="width:200px">
     <div class="w3-bar-item">
-      <span class="w3-large">1606 - Valdivia - Doctrina y Confessionario</span><br>
-      <span>Valdivia, L. de. (1606). <i>Arte y gramatica general de la lengua <br> que corre en todo el Reyno de Chile, con un vocabulario, y confessonario</i>. <br> Thomás López de Haro.
-      </span>
+      <span class="w3-large">1777 - Havestadt - Chilidúǵu (Tomo I)</span><br>
+      <span>Havestadt, B. (1777). <em>Chilidúǵu sive res chilenses vel descriptio Status tum naturalis, tum civilis, cum moralis Regni populique Chilensis</em>. Monasterii Westphaliæ: typis Aschendorfianis</span>
     </div>
   </a>
   </li>
-
-
-  <li class="w3-bar">
-    <a href="Sermon/index.html">
-    <img src="imgs/sermon_sm.jpg" class="w3-bar-item w3-round" style="width:100px">
-    <div class="w3-bar-item">
-      <span class="w3-large">1621 - Valdivia - Sermon</span><br>
-      <span>Valdivia, L. de. (1621). <i>Sermón en lengua de Chile</i>. Valladolid.</span>
-    </div>
-  </a>
-  </li>
-
-  <li class="w3-bar">
-    <a href="Febres/index.html">
-    <img src="imgs/febres.png" class="w3-bar-item w3-round" style="width:100px">
-    <div class="w3-bar-item">
-      <span class="w3-large">1764 - Febrés - Calepino</span><br>
-      <span>Febrés, A. (1764). <i>Arte de la lengua general del reyno de Chile</i>.<br> Calle de la Encarnación.</span>
-    </div>
-  </a>
-  </li>
-
-
 </ul>
 
+
+  </div> <!-- End Column 2-->
+
+<!-- Column 3 -->
+  <div class="column">
+    <ul class="w3-ul w3-padding-16 w3-round" style="width:100%">
+      <li class="w3-bar">
+        <a href="1777_Havestadt/index.html">
+        <img src="imgs/Havestadt_2.jpg" class="w3-bar-item w3-round" style="width:200px">
+        <div class="w3-bar-item">
+          <span class="w3-large">1777 - Havestadt - Chilidúǵu (Tomo II)</span><br>
+      <span>Havestadt, B. (1777). <em>Chilidúǵu sive res chilenses vel descriptio Status tum naturalis, tum civilis, cum moralis Regni populique Chilensis</em>. Monasterii Westphaliæ: typis Aschendorfianis</span>
+
+        </div>
+      </a>
+      </li>
+    </ul>
+
+  </div> <!-- End Column 3 -->
+
+</div> <!-- End Row -->
 
 
 </div>
