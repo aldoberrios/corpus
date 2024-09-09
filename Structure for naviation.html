@@ -1,69 +1,81 @@
 <!-- Structure for navigation -->
 
-<!-- 1 add this script -->
-<a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
-
-<!-- 2 add this at the end of the document -->
+<!-- 1 add this at the end of the document -->
 <script src="https://aldoberrios.cl/corpus/assets/mobilenavigation.js"></script>
 
-<!-- 3 Duplicate the navigation -->
+<!-- 2 Duplicate the navigation & Delete the TOP and + THING of the second nav bar-->
 
-<!-- Add the following to the naviation bottom--->
+<!-- 3 add this script to the top the first item (the name of the material)-->
+<a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+
+<!-- 4 Add this as the top item at the second navigation menu--->
 <div id="menudisplay" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top w3-green w3-center w3-border-0">
 
-<!-- 4 Add the following attribut to the items on the first nav bar -->
- w3-hide-small
-
-<!-- 5 Add the following attribute to the items on the second nav bar -->
-
-w3-hide-medium
-
-<!-- 6 Some deletion may be needed -->
-
-<!-- Give the opportunity to close the window in the small viewport mode -->
+<!-- 5 Give the opportunity to close the window in the small viewport mode--> 
+<!--   Add this as final item to the navigation bottom (DELETE the menu and the TOP link)-->
 <a href="javascript:void(0)" class="w3-bar-item w3-button" onclick="myFunction()">&#10006;</a>
 
+<!-- 6 Add the following attribute to the items on the second nav bar -->
+w3-hide-medium
+
+<!-- 7 Add the following attribut to the items on the first nav bar -->
+ w3-hide-small
+
+<!-- 8 Move position of the first TOP to the bottom -->
 
 
- <!-- Navigation (Stays on Top) -->
-<div class="w3-top w3-green w3-center w3-border-0">
-	<a href="index.html"            class="w3-bar-item w3-button w3-hover-opacity w3-light-green">Inicio</a> 
-	<a href="01arte/index.html"        class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">Arte</a> 
-	<a href="02vocabulario/index.html" class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">Vocabulario</a> 
-	<a href="03doctrina/index.html"    class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">Doctrina y Confessionario</a>
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
-	<a href="#home"                    class="w3-bar-item w3-button w3-hover-opacity w3-light-green">TOP</a> 
-		  <div class="w3-dropdown-hover">
-    	<button class="w3-button w3-light-green">+</button>
-    		<div class="w3-dropdown-content w3-bar-block w3-card-4">
-      			<a href="../index.html"                class="w3-bar-item w3-hide-small">Inicio</a>
-      			<a href="#"                            class="w3-bar-item w3-hide-small">Valdivia 1606</a>
-      			<a href="../1621_Sermon/index.html"    class="w3-bar-item w3-hide-small">Valdivia 1621</a>
-      			<a href="../1764_Febres/index.html"    class="w3-bar-item w3-hide-small">Febrés 1764</a>
-      			<a href="../1777_Havestadt/index.html" class="w3-bar-item w3-hide-small">Havestadt 1777</a>
-                <a href="../1903_Gramatica/index.html" class="w3-bar-item w3-hide-small">Augusta 1903</a>
-      			<a href="../1916_Augusta/index.html"   class="w3-bar-item w3-hide-small">Augusta 1916</a>
-    		</div>
-	    </div>
-</div> 
+<!-- THIS IS AN EXAMPLE --> 
 
- <!-- Navigation (Mobile) -->
-<div id="menudisplay" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top w3-green w3-center w3-border-0">
-	<a href="index.html"               class="w3-bar-item w3-button w3-hover-opacity w3-light-green">Inicio</a> 
-	<a href="01arte/index.html"        class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Arte</a> 
-	<a href="02vocabulario/index.html" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Vocabulario</a> 
-	<a href="03doctrina/index.html"    class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Doctrina y Confessionario</a>
-	<a href="#home"                    class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-light-green">TOP</a> 
-		  <div class="w3-dropdown-hover w3-hide-small">
-    	<button class="w3-button  w3-light-green">+</button>
-    		<div class="w3-dropdown-content w3-bar-block w3-card-4">
-      			<a href="../index.html"                class="w3-bar-item w3-button">Inicio</a>
-      			<a href="#"                            class="w3-bar-item w3-button">Valdivia 1606</a>
-      			<a href="../1621_Sermon/index.html"    class="w3-bar-item w3-button">Valdivia 1621</a>
-      			<a href="../1764_Febres/index.html"    class="w3-bar-item w3-button">Febrés 1764</a>
-      			<a href="../1777_Havestadt/index.html" class="w3-bar-item w3-button">Havestadt 1777</a>
+<!-- Navigation (Stays on Top) -->
+    <div class="w3-top w3-teal w3-center">
+        <a href="../index.html"         class="w3-bar-item w3-button w3-cyan w3-hover-opacity">Inicio</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+        <a href="01grammar/index.html"  class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">1. Arte</a>
+        <a href="02doctrina/index.html" class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">2. Doctrina</a>
+        <a href="03hispano/index.html"  class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">3. Hispano</a>
+        <a href="04calepino/index.html" class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">4. Calepino</a>
+        <div class="w3-dropdown-hover">
+        <button class="w3-button w3-cyan">+</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="../index.html" class="w3-bar-item w3-button">Inicio</a>
+            <a href="../1606_Valdivia/index.html"  class="w3-bar-item w3-button">Valdivia 1606</a>
+            <a href="../1621_Sermon/index.html"    class="w3-bar-item w3-button">Valdivia 1621</a>
+            <a href="../1764_Febres/index.html"    class="w3-bar-item w3-button">Febrés 1764</a>
+            <a href="../1777_Havestadt/index.html" class="w3-bar-item w3-button">Havestadt 1777</a>
             <a href="../1903_Gramatica/index.html" class="w3-bar-item w3-button">Augusta 1903</a>
-      			<a href="../1916_Augusta/index.html"   class="w3-bar-item w3-button">Augusta 1916</a>
-    		</div>
-	    </div>
-</div> 
+            <a href="../1916_Augusta/index.html"   class="w3-bar-item w3-button">Augusta 1916</a>
+        </div>
+        <a href="#home" class="w3-bar-item w3-button w3-hover-opacity w3-cyan ">TOP</a>
+        </div>
+    </div>
+
+
+<!-- Navigation (Stays on Top) -->
+	<div id="menudisplay" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top w3-cyan w3-center w3-border-0">
+        <a href="../index.html" class="w3-bar-item w3-button w3-cyan w3-hover-opacity">Inicio</a>
+        <a href="01grammar/index.html"  class="w3-bar-item w3-button w3-hover-opacity w3-hide-medium w3-khaki">1. Arte</a>
+        <a href="02doctrina/index.html" class="w3-bar-item w3-button w3-hover-opacity w3-hide-medium w3-khaki">2. Doctrina</a>
+        <a href="03hispano/index.html"  class="w3-bar-item w3-button w3-hover-opacity w3-hide-medium w3-khaki">3. Hispano</a>
+        <a href="04calepino/index.html" class="w3-bar-item w3-button w3-hover-opacity w3-hide-medium w3-khaki">4. Calepino</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button" onclick="myFunction()">&#10006;</a>
+    </div>
+
+
+<!-- If you need columns use this -->
+<div class="w3-row">
+  <div class="w3-col s3">
+  </div>
+
+  <div class="w3-col s3">
+  </div>
+
+  <div class="w3-col s3">
+  </div>
+
+  <div class="w3-col s3">
+
+  <span class="w3-bar-item w3-button w3-hover-opacity">&nbsp;</span>
+  <span class="w3-bar-item w3-button w3-hover-opacity">&nbsp;</span>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button" onclick="myFunction()">&#10006;</a>
+  </div>
+</div>
