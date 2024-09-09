@@ -10,25 +10,39 @@
 
  <!-- Navigation (Stays on Top) -->
 <div class="w3-top w3-green w3-center">
-	<a href="../index.html" class="w3-bar-item w3-button w3-hover-opacity w3-light-green">Valdivia</a>
-	<a href="#doctrina" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Doctrina</a>
-	<a href="#cathecismo" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Cathecismo</a> 
-	<a href="#confessionario" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Confessionario</a> 
-  <a href="#home" class="w3-bar-item w3-button w3-hover-opacity w3-light-green">TOP</a>
+	<a href="../index.html"   class="w3-bar-item w3-button w3-hover-opacity w3-light-green">Valdivia</a>
+	<a href="#doctrina"       class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">Doctrina</a>
+	<a href="#cathecismo"     class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">Cathecismo</a> 
+	<a href="#confessionario" class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">Confessionario</a> 
+  <a href="#home"           class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-light-green">TOP</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+
 		  <div class="w3-dropdown-hover">
     	<button class="w3-button w3-light-green">+</button>
     		<div class="w3-dropdown-content w3-bar-block w3-card-4">
       			<a href="../../index.html" class="w3-bar-item w3-button">Inicio</a>
       			<a href="../index.html" class="w3-bar-item w3-button">Valdivia 1606</a>
-      			<a href="../../1621_Sermon/index.html" class="w3-bar-item w3-button">Valdivia 1621</a>
-      			<a href="../../1764_Febres/index.html" class="w3-bar-item w3-button">Febrés 1764</a>
-      			<a href="../../1777_Havestadt/index.html" class="w3-bar-item w3-button">Havestadt 1777</a>
-            <a href="../../1903_Gramatica/index.html" class="w3-bar-item w3-button">Augusta 1903</a>
-      			<a href="../../1916_Augusta/index.html" class="w3-bar-item w3-button">Augusta 1916</a>
+      			<a href="../../1621_Sermon/index.html"     class="w3-bar-item w3-button">Valdivia 1621</a>
+      			<a href="../../1764_Febres/index.html"     class="w3-bar-item w3-button">Febrés 1764</a>
+      			<a href="../../1777_Havestadt/index.html"  class="w3-bar-item w3-button">Havestadt 1777</a>
+            <a href="../../1903_Gramatica/index.html"  class="w3-bar-item w3-button">Augusta 1903</a>
+      			<a href="../../1916_Augusta/index.html"    class="w3-bar-item w3-button">Augusta 1916</a>
     		</div>
 	    </div> 
 </div> 
 
+
+ <!-- Navigation (Stays on Top) -->
+<div id="menudisplay" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top w3-green w3-center w3-border-0">
+	<a href="../index.html"      class="w3-bar-item w3-button w3-hover-opacity w3-light-green">Valdivia - Doctrina y Confesionario</a>
+	<a href="#doctrina"          class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Doctrina</a>
+	<a href="#cathecismo"        class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Cathecismo</a> 
+	<a href="#confessionario"    class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Confessionario</a> 
+	<a href="javascript:void(0)" class="w3-bar-item w3-button" onclick="myFunction()">&#10006;</a>
+</div> 
+
+
+<!-- START OF CONTENT --> 
 <div id="home" class="w3-content w3-padding-64">
 
 	<div id="intro" class="w3-container w3-padding-32">
@@ -212,6 +226,6 @@
 <footer class="w3-container w3-blue w3-center">
   <p>Valdivia, L. de. (1606). <i>Arte y gramatica general de la lengua que corre en todo el Reyno de Chile, con un vocabulario, y confessonario</i>. Thomás López de Haro.</p>
 </footer>
-
+<script src="https://aldoberrios.cl/corpus/assets/mobilenavigation.js"></script>
 </body>
 </html> 
