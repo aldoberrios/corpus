@@ -8,37 +8,50 @@
 <link rel="stylesheet" href="../assets/style.css">
 <body>
 
-
- <!-- Navigation (Stays on Top) -->
+ <!-- Navigation I -->
 <div class="w3-top w3-center w3-deep-purple">
-	<a href="../index.html" class="w3-bar-item w3-button w3-hover-opacity w3-blue">Inicio</a> 
-	<a href="1map/index.html" class="w3-bar-item w3-button w3-hover-opacity  w3-pale-red">Mapudungun-Español</a> 
-	<a href="2esp/index.html" class="w3-bar-item w3-button w3-hover-opacity w3-pale-red">Español-Mapudungun</a> 
-	<a href="#home" class="w3-bar-item w3-button w3-hover-opacity w3-blue">TOP</a> 
-
+	<a href="../index.html"   class="w3-bar-item w3-button w3-hover-opacity w3-blue">Inicio</a> 
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+	<a href="1map/index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-opacity  w3-pale-red">Mapudungun-Español</a> 
+	<a href="2esp/index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-opacity w3-pale-red">Español-Mapudungun</a> 
   <div class="w3-dropdown-hover">
-  <button class="w3-button w3-blue">+</button>
-  <div class="w3-dropdown-content w3-bar-block w3-card-4">
-    <a href="../index.html" class="w3-bar-item w3-button">Inicio</a>
-    <a href="../1606_Valdivia/index.html" class="w3-bar-item w3-button">Valdivia 1606</a>
-    <a href="../1621_Sermon/index.html" class="w3-bar-item w3-button">Valdivia 1621</a>
-    <a href="../1764_Febres/index.html" class="w3-bar-item w3-button">Febrés 1764</a>
-    <a href="../1777_Havestadt/index.html" class="w3-bar-item w3-button">Havestadt 1777</a>
-    <a href="../1903_Gramatica/index.html" class="w3-bar-item w3-button">Augusta 1903</a>
-    <a href="#" class="w3-bar-item w3-button">Augusta 1916</a>
+    <button class="w3-button w3-blue">+</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="../index.html"                class="w3-bar-item w3-button">Inicio</a>
+      <a href="../1606_Valdivia/index.html"  class="w3-bar-item w3-button">Valdivia 1606</a>
+      <a href="../1621_Sermon/index.html"    class="w3-bar-item w3-button">Valdivia 1621</a>
+      <a href="../1764_Febres/index.html"    class="w3-bar-item w3-button">Febrés 1764</a>
+      <a href="../1777_Havestadt/index.html" class="w3-bar-item w3-button">Havestadt 1777</a>
+      <a href="../1903_Gramatica/index.html" class="w3-bar-item w3-button">Augusta 1903</a>
+      <a href="#"                            class="w3-bar-item w3-button">Augusta 1916</a>
+    </div>
   </div>
+	<a href="#home" class="w3-bar-item w3-button w3-hover-opacity w3-blue">TOP</a> 
+</div> 
+
+
+<!-- Navigation II -->
+<div id="menudisplay" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top w3-deep-purple w3-center w3-border-0">
+  <a href="../index.html"   class="w3-bar-item w3-button w3-hover-opacity w3-hide-medium w3-blue">Inicio</a> 
+  <div class="w3-row">
+    <div class="w3-col s6">
+      <a href="1map/index.html" class="w3-bar-item w3-button w3-hover-opacity w3-hide-medium w3-pale-red">Mapudungun-Español</a> 
+    </div>
+    <div class="w3-col s6">
+      <a href="2esp/index.html" class="w3-bar-item w3-button w3-hover-opacity w3-hide-medium w3-pale-red">Español-Mapudungun</a> 
+    </div>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button" onclick="myFunction()">&#10006;</a>
   </div>
 </div> 
 
-<div id="home" class="w3-content w3-padding-64">
+<!-- Contents --> 
 
+<div id="home" class="w3-content w3-padding-64">
 
   <div id="intro" class="w3-container w3-padding-32">
   <h1 class="w3-center">Diccionario Español - Mapudungun y Mapudungun Español de Fray Félix José de Augusta (1916)</h1>
   <h2>Presentación</h2>
   <p>Acá se contiene el diccionario de Fray Félix José de Augusta, publicado en 1916, en un formato que permite consultar las páginas impresas del original por medio de un menú superior.</p>
-
-
 
   <div class="w3-row-padding w3-margin-top">
     <div class="w3-half">
@@ -185,6 +198,8 @@
 <footer class="w3-container w3-blue w3-center">
   <p>de Augusta, F. F. J. (1916). <em>Diccionario Araucano-Español y Español-Araucano</em>. Imprenta Universitaria.</p>
 </footer>
+
+<script src="https://aldoberrios.cl/corpus/assets/mobilenavigation.js"></script>
 
 </body>
 </html> 
