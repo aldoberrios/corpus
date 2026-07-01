@@ -1,0 +1,914 @@
+ <!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Lecturas Araucanas, 1910</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script src="https://www.w3schools.com/lib/w3.js"></script> 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+<link rel="stylesheet" href="../assets/style.css"> <!-- my CSS -->
+
+<body>
+
+ <!-- Navigation (Stays on Top) -->
+<div class="w3-top w3-green w3-center w3-border-0">
+	<a href="../index.html"            class="w3-bar-item w3-button w3-hover-opacity w3-light-green">Inicio</a> 
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+	<a href="#01" class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">1</a> 
+	<a href="#02" class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">2</a> 
+	<a href="#03" class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">3</a>
+	<a href="#04" class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">4</a>
+	<a href="#05" class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">5</a>
+	<a href="#06" class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">6</a>
+	<a href="#07" class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">7</a>
+	<a href="#08" class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">8</a>
+	<a href="#ap" class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">Apéndice</a>
+	<a href="#sg1" class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">Otros 1. Prosa</a>
+  <a href="#sg2" class="w3-bar-item w3-button w3-hover-opacity w3-hide-small w3-khaki">Otros 2. Canciones</a>
+
+
+
+		  <div class="w3-dropdown-hover">
+    	<button class="w3-button w3-light-green">+</button>
+    		<div class="w3-dropdown-content w3-bar-block w3-card-4">
+      			<a href="../index.html"                class="w3-bar-item w3-button ">Inicio</a>
+      			<a href="#"                            class="w3-bar-item w3-button ">Valdivia 1606</a>
+      			<a href="../1621_Sermon/index.html"    class="w3-bar-item w3-button ">Valdivia 1621</a>
+      			<a href="../1764_Febres/index.html"    class="w3-bar-item w3-button ">Febrés 1764</a>
+      			<a href="../1777_Havestadt/index.html" class="w3-bar-item w3-button ">Havestadt 1777</a>
+      			<a href="../1895_Lenz/index.html"      class="w3-bar-item w3-button ">Lenz 1895</a>
+            <a href="../1903_Gramatica/index.html" class="w3-bar-item w3-button ">Augusta 1903</a>
+            <a href="../1910_lecturas/index.html"  class="w3-bar-item w3-button ">Augusta 1910</a>
+      			<a href="../1916_Augusta/index.html"   class="w3-bar-item w3-button ">Augusta 1916</a>
+    		</div>
+	    </div>
+	<a href="#home"                    class="w3-bar-item w3-button w3-hover-opacity w3-light-green">TOP</a>
+</div> 
+
+ <!-- Navigation (Mobile) -->
+<div id="menudisplay" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top w3-green w3-center w3-border-0">
+	<a href="../index.html"            class="w3-bar-item w3-button w3-hover-opacity w3-light-green">Inicio</a>
+	<a href="#est01" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Estudio 1</a> 
+	<a href="#est02" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Estudio 2</a> 
+	<a href="#est03" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Estudio 3</a>
+	<a href="#est04" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Estudio 4</a>
+	<a href="#est05" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Estudio 5</a>
+	<a href="#est06" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Estudio 6</a>
+	<a href="#est07" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Estudio 7</a>
+	<a href="#est08" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Estudio 8</a>
+	<a href="#ape" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Apendice</a>
+	<a href="#est09" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Estudio 9</a>
+	<a href="#est10" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Estudio 10</a>
+	<a href="#est11" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Estudio 11</a>
+	<a href="#est12" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Estudio 12</a>
+	<a href="#epi" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Epílogo</a>
+	<a href="#ind" class="w3-bar-item w3-button w3-hover-opacity w3-khaki">Índice</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button" onclick="myFunction()">&#10006;</a>
+</div> 
+
+<!-- Start content --> 
+<div id="home" class="w3-content w3-padding-64">
+
+<div id="title" class="w3-container w3-padding-32">
+	<h1>Lecturas Araucanas</h1>
+  <p>Lecturas Araucanas, de Augusta (1910), con un menú que permite acceder a las entradas.</p>	
+</div>
+
+<div id="index" class="w3-container w3-padding-32">
+
+<h1>Contenidos</h1>
+
+<table>
+
+  <!-- MAIN HEADER -->
+  <tr>
+    <td colspan="2"><br><strong>TEXTOS RECOGIDOS POR FRAY FELIX JOSE DE AUGUSTA.</strong><br><br></td>
+
+<tr><td><a href="#intro">Lecturas Araucanas</a></td><td style="text-align: right;">—</td></tr>
+<tr><td><a href="#pro">Prólogo y advertencias de la obra</a></td><td style="text-align: right;">—</td></tr>
+<tr><td><a href="#pro1">I. Objecto y fin de la obra</a></td><td style="text-align: right;">—</td></tr>
+<tr><td><a href="#pro2">II. Origen y División</a></td><td style="text-align: right;">—</td></tr>
+<tr><td><a href="#pro3">III. Fonética, ortografía</a></td><td style="text-align: right;">—</td></tr>
+
+<tr><td><br><a href="#ind">Índice</a></td><td style="text-align: right;">—</td></tr>
+
+  </tr>
+
+  <!-- PART I -->
+  <tr>
+    <td colspan="2"><br><strong>I. PARTE: ALGUNAS COSTUMBRES DE LOS ARAUCANOS.</strong></td>
+  </tr>
+  <tr><td><a href="#01_1"> 1. Rogativas como las solían hacer los indios de la costa etc.</a></td><td style="text-align: right;">3</td></tr>
+  <tr><td><a href="#01_2"> 2. Una visión de una machi</a></td><td style="text-align: right;">8</td></tr>
+  <tr><td><a href="#01_3"> 3. Sueños visionarios</a></td><td style="text-align: right;">9</td></tr>
+  <tr><td><a href="#01_4"> 4. Entierro</a></td><td style="text-align: right;">10</td></tr>
+  <tr><td><a href="#01_5"> 5. <em>Pichi weupin.</em> Parlamento chico</a></td><td style="text-align: right;">12</td></tr>
+  <tr><td><a href="#01_6"> 6. <em>Fùchá weupin.</em> Parlamento grande</a></td><td style="text-align: right;">14</td></tr>
+  <tr><td><a href="#01_6"> 6. Fabricación de la chicha de maíz</a></td><td style="text-align: right;">20</td></tr>
+  <tr><td><a href="#01_7"> 7. <em>Rùŋkùchallwan.</em> Pesca con la lanza tridente</a></td><td style="text-align: right;">21</td></tr>
+  <tr><td><a href="#01_8"> 8. <em>Məñutu</em></a></td><td style="text-align: right;">23</td></tr>
+  <tr><td><a href="#01_9"> 9. <em>Nùyùn.</em> Temblor</a></td><td style="text-align: right;">23</td></tr>
+  <tr><td><a href="#01_10"> 10. Imprecaciones etc.</a></td><td style="text-align: right;">24</td></tr>
+  <tr><td><a href="#01_11"> 11. Orígen de las rogativas</a></td><td style="text-align: right;">24</td></tr>
+  <tr><td><a href="#01_12"> 12. <em>Aillarewe.</em> Convocación al gran <em>ŋillatun</em> y ritual del mismo</a></td><td style="text-align: right;">29</td></tr>
+  <tr><td><a href="#01_13"> 13. Invocación de un pájaro</a></td><td style="text-align: right;">42</td></tr>
+  <tr><td><a href="#01_14"> 14. Quejas de un enfermo</a></td><td style="text-align: right;">43</td></tr>
+  <tr><td><a href="#01_15"> 15. <em>Awar kuden</em>, el juego de habas</a></td><td style="text-align: right;">43</td></tr>
+  <tr><td><a href="#01_16"> 16. Explicación de los términos <em>katrù</em> y <em>koncho</em></a></td><td style="text-align: right;">44</td></tr>
+  <tr><td><a href="#01_17"> 17. Las estaciones del año</a></td><td style="text-align: right;">44</td></tr>
+  <tr><td><a href="#01_18"> 18. La fiesta de las máscaras</a></td><td style="text-align: right;">45</td></tr>
+
+  <!-- PART II -->
+  <tr>
+    <td colspan="2"><br><strong><a href="#02">II. PARTE. RELACIONES MODERNAS.</a></strong></td>
+  </tr>
+  <tr><td><a href="#02_1">1. Impresiones que el ciego José Francisco Kolùñ etc.</a></td><td style="text-align: right;">51</td></tr>
+  <tr><td><a href="#02_2">2. Discursos, que se pronunciaron en una reunión etc.</a></td><td style="text-align: right;">54</td></tr>
+  <tr><td><a href="#02_3">3. Quejas de una viuda.</a></td><td style="text-align: right;">63</td></tr>
+
+  <!-- PART III -->
+  <tr>
+    <td colspan="2"><br><strong><a href="#03">III. PARTE. CUENTOS.</a></strong></td>
+  </tr>
+  <tr><td><a href="#03_1">1. El caballo blanco</a></td><td style="text-align: right;">71</td></tr>
+  <tr><td><a href="#03_2">2. Morcilla</a></td><td style="text-align: right;">77</td></tr>
+  <tr><td><a href="#03_3">3. Un huinca viejo y una señora vieja</a></td><td style="text-align: right;">89</td></tr>
+  <tr><td><a href="#03_4">4. El zorro aprende á cantar</a></td><td style="text-align: right;">100</td></tr>
+  <tr><td><a href="#03_5">5. El ratón</a></td><td style="text-align: right;">103</td></tr>
+  <tr><td><a href="#03_6">6. <em>Menoko</em></a></td><td style="text-align: right;">104</td></tr>
+  <tr><td><a href="#03_7">7. Dios se lo pague</a></td><td style="text-align: right;">118</td></tr>
+  <tr><td><a href="#03_8">8. El chingue <em>machi</em></a></td><td style="text-align: right;">140</td></tr>
+  <tr><td><a href="#03_9">9. Más vale maña que fuerza</a></td><td style="text-align: right;">142</td></tr>
+  <tr><td><a href="#03_10">10. Entre brujos antropófagos</a></td><td style="text-align: right;">145</td></tr>
+  <tr><td><a href="#03_11">11. La suma causa</a></td><td style="text-align: right;">155</td></tr>
+
+  <!-- PART IV -->
+  <tr>
+    <td colspan="2"><br><strong><a href="#04">IV. PARTE. CANCIONES.</a></strong></td>
+  </tr>
+  <tr><td><a href="#04_1">1. Canciones</a></td><td style="text-align: right;">162</td></tr>
+
+  <!-- PART V -->
+  <tr>
+    <td colspan="2"><br><strong><a href="#05">V. PARTE. CARTAS.</a></strong></td>
+  </tr>
+  <tr><td><a href="#05_1">1. Carta que nos ha dictado el joven Kurùnamko etc.</a></td><td style="text-align: right;">177</td></tr>
+  <tr><td><a href="#05_2">2. Lo que el caciquillo Wénchukoy de Wapi etc.</a></td><td style="text-align: right;">181</td></tr>
+  <tr><td><a href="#05_3">3. Lo que el preceptor de la escuela Misional etc.</a></td><td style="text-align: right;">183</td></tr>
+  <tr><td><a href="#05_4">4. Carta de Isabel Painemilla etc.</a></td><td style="text-align: right;">185</td></tr>
+
+  <!-- PART VI -->
+  <tr>
+    <td colspan="2"><br><strong><a href="#06">VI. PARTE. VARIEDADES.</a></strong></td>
+  </tr>
+  <tr><td><a href="#06_1">1. Robo de un chancho</a></td><td style="text-align: right;"></td></tr>
+  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#06_1a">Primera versión</a></td><td style="text-align: right;">189</td></tr>
+  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#06_1b">Segunda versión</a></td><td style="text-align: right;">191</td></tr>
+  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#06_1c">Tercera versión</a></td><td style="text-align: right;">193</td></tr>
+  <tr><td><a href="#06_2">2. Un pleito</a></td><td style="text-align: right;">194</td></tr>
+  <tr><td><a href="#06_3">3. Un pobre loco</a></td><td style="text-align: right;">198</td></tr>
+  <tr><td><a href="#06_4">4. La muerte de un caballo</a></td><td style="text-align: right;">199</td></tr>
+  <tr><td><a href="#06_5">5. Sucesos en el camino</a></td><td style="text-align: right;">199</td></tr>
+  <tr><td><a href="#06_6">6. Crecimiento del haba, del maíz, de la arveja y del trigo</a></td><td style="text-align: right;">201</td></tr>
+  <tr><td><a href="#06_7">7. <em>Afkentun</em></a></td><td style="text-align: right;">204</td></tr>
+  <tr><td><a href="#06_8">8. <em>Malma ŋelu, pramuwn ŋelu</em></a></td><td style="text-align: right;">204</td></tr>
+  <tr><td><a href="#06_9">9. <em>Kishu ŋenéwn ŋei</em></a></td><td style="text-align: right;">205</td></tr>
+  <tr><td><a href="#06_10">10. <em>Dakeltun</em></a></td><td style="text-align: right;">205</td></tr>
+  <tr><td><a href="#06_11">11. <em>Feyélfeyeltun</em></a></td><td style="text-align: right;">205</td></tr>
+  <tr><td><a href="#06_12">12. Pleito</a></td><td style="text-align: right;">206</td></tr>
+  <tr><td><a href="#06_13">13. Una traducción al araucano</a></td><td style="text-align: right;">207</td></tr>
+
+  <!-- PART VII -->
+  <tr>
+    <td colspan="2"><br><strong><a href="#07">VII. PARTE. CÁNTICOS RELIGIOSOS</a> <br> compuestos por el autor de este libro.</strong></td>
+  </tr>
+  <tr><td><a href="#07_1">1. Pewùŋen. Primavera</a></td><td style="text-align: right;">213</td></tr>
+  <tr><td><a href="#07_2">2. Eymi Santa</a></td><td style="text-align: right;">214</td></tr>
+  <tr><td><a href="#07_2">2. Kùpamn, itrokom che</a></td><td style="text-align: right;">215</td></tr>
+  <tr><td><a href="#07_3">3. Por tí, oh dulce Virgen</a></td><td style="text-align: right;">216</td></tr>
+  <tr><td><a href="#07_5">5. Kesús, ñi duam.</a></td><td style="text-align: right;">217</td></tr>
+  <tr><td><a href="#07_6">6. Adoración del Pan Eucarístico.</a></td><td style="text-align: right;">217</td></tr>
+  <tr><td><a href="#07_7">7. Sea alabado nuestro Jesús.</a></td><td style="text-align: right;">217</td></tr>
+  <tr><td><a href="#07_8">8. Como prenda de mi amor.</a></td><td style="text-align: right;">218</td></tr>
+  <tr><td><a href="#07_9">9. Para la Pascua de Natividad.</a></td><td style="text-align: right;">219</td></tr>
+  <tr><td><a href="#07_10">10. Kiñewn ùlkantuaimn.</a></td><td style="text-align: right;">220</td></tr>
+  <tr><td><a href="#07_11">11. Un dios por galardon.</a></td><td style="text-align: right;">220</td></tr>
+
+  <!-- APPENDIX -->
+  <tr>
+    <td colspan="2"><br><strong><a href="#ap">Apendice.</a></strong></td>
+  </tr>
+  <tr><td><a href="#ap1">Algunas observaciones sobre las rogativas</a></td><td style="text-align: right;">225</td></tr>
+  <tr><td><a href="#ap2">El rehue (<em>réwe</em>), ngueicurehuenn (<em>ŋeikureweun</em>)</a></td><td style="text-align: right;">228</td></tr>
+  <tr><td><a href="#ap3">Averiguación histórica sobre las ideas religiosas de los araucanos y sus manifestaciones cultuales.</a></td><td style="text-align: right;">230</td></tr>
+  <tr><td><a href="#ap4">I. P. Luís de Valdivia, S. J.</a></td><td style="text-align: right;">233</td></tr>
+  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#ap5">Observaciones</a></td><td style="text-align: right;">235</td></tr>
+  <tr><td><a href="#ap6">II. P. Diego de Rosales, S. J.</a></td><td style="text-align: right;">239</td></tr>
+  <tr><td><a href="#ap7">III. P. Bernardo Havestadt, S. J.</a></td><td style="text-align: right;">243</td></tr>
+  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#ap8">Observaciones sobre los datos extraídos de las obras del P. de Rosales y del P. Havestadt</a></td><td style="text-align: right;">244</td></tr>
+  <tr><td><a href="#ap9">IV. Storie delle Missioni Apostoliche dello stato del Chile. Opera di Giuseppe Salustj</a></td><td style="text-align: right;">246</td></tr>
+  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#ap10">Observaciones. Estudio sobre el Pillañ</a></td><td style="text-align: right;">248</td></tr>
+  <tr><td><a href="#ap11">V. L' Araucanía, Memorie inedite delle Missioni dei F. F. M. M. Capuccini nel Chile</a></td><td style="text-align: right;">252</td></tr>
+  <tr><td><a href="#ap12">VI. Del manuscrito inédito de una gramática araucana, comp. por el Misionero Capuchino RP. Octaviano de Nizza</a></td><td style="text-align: right;">255</td></tr>
+  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#ap13">Observaciones</a></td><td style="text-align: right;">256</td></tr>
+  <tr><td><a href="#ap14">Influencias que deben tomarse en cuenta al estimar la lenta marcha de la cristianización de los indios.</a></td><td style="text-align: right;">259</td></tr>
+  <tr><td><a href="#ap15">La invocación de los espíritus</a></td><td style="text-align: right;">264</td></tr>
+  <tr><td><a href="#ap16">Las palabras <em>pom</em>, o <em>ó</em>, <em>om</em>, o <em>om</em></a></td><td style="text-align: right;">266</td></tr>
+  <tr><td><a href="#ap17"><em>Yapepùllin</em></a></td><td style="text-align: right;">267</td></tr>
+  <tr><td><a href="#ap18"><em>Treŋtreŋ</em></a></td><td style="text-align: right;">268</td></tr>
+  <tr><td><a href="#ap19"><em>Ashŋellkawellun</em></a></td><td style="text-align: right;">270</td></tr>
+  <tr><td><a href="#ap20">Ad <em>Məñutu</em>, pg. 23</a></td><td style="text-align: right;">271</td></tr>
+
+  <!-- NEW AUTHOR SECTION -->
+  <tr>
+    <td colspan="2"><br><strong><a href="#sg">TEXTOS RECOGIDOS POR EL RP. SIGIFREDO DE FRAUNHÆUSL.</a></strong><br><br></td>
+  </tr>
+
+  <!-- FRAUNHÆUSL PART I -->
+  <tr>
+    <td colspan="2"><strong><a href="#sg1">I. PARTE. PROSA.</a></strong></td>
+  </tr>
+  <tr><td><a href="#sg1_1">1. Desafío entre cuadrúpedos é insectos</a></td><td style="text-align: right;">275</td></tr>
+  <tr><td><a href="#sg1_2">2. Una tragedia</a></td><td style="text-align: right;">277</td></tr>
+  <tr><td><a href="#sg1_3">3. La casa encantada</a></td><td style="text-align: right;">279</td></tr>
+  <tr><td><a href="#sg1_4">4. El hijo del sol</a></td><td style="text-align: right;">282</td></tr>
+  <tr><td><a href="#sg1_5">5. El zorro y el chingue</a></td><td style="text-align: right;">283</td></tr>
+  <tr><td><a href="#sg1_6">6. Discurso del sacerdote al inaugurar unas rogativas</a></td><td style="text-align: right;">285</td></tr>
+  <tr><td><a href="#sg1_7">7. <em>ŋillatunkamañ ñi ŋùlámtuken rupan trawn déuma</em></a></td><td style="text-align: right;">289</td></tr>
+  <tr><td><a href="#sg1_8">8. <em>Kallfù malen y kallfù wentru</em></a></td><td style="text-align: right;">290</td></tr>
+  <tr><td><a href="#sg1_9">9. Dos parlamentos grandes (<em>weupin</em>)</a></td><td style="text-align: right;">291</td></tr>
+  <tr><td><a href="#sg1_10">10. <em>Iñche ñi kuifike che yem ñi dəŋu</em></a></td><td style="text-align: right;">301</td></tr>
+
+  <!-- FRAUNHÆUSL PART II -->
+  <tr>
+    <td colspan="2"><br><strong><a href="#sg2">II. PARTE. CANCIONES.</a></strong></td>
+  </tr>
+  <tr><td><a href="#sg2_intro">Introducción á las canciones</a></td><td style="text-align: right;">307</td></tr>
+  <tr><td><a href="#sg2_1">I. Elegías (78)</a></td><td style="text-align: right;">311</td></tr>
+  <tr><td><a href="#sg2_2">II. Canciones de machi (58)</a></td><td style="text-align: right;">353</td></tr>
+  <tr><td><a href="#sg2_3">III. Canciones de máscaras etc. (37)</a></td><td style="text-align: right;">378</td></tr>
+  <tr><td><a href="#sg2_4">IV. <em>Paliwe ùl.</em> Canciones de chueca</a></td><td style="text-align: right;">392</td></tr>
+  <tr><td><a href="#sg2_5">V. <em>Awar-kudewe ùl.</em> Canción de juego de habas</a></td><td style="text-align: right;">396</td></tr>
+  <tr><td><a href="#sg2_6">VI. <em>Ñuwiñ ùl.</em> Canciones de trilla</a></td><td style="text-align: right;">398</td></tr>
+  <tr><td><a href="#sg2_7">VII. <em>ŋawiwe ùl.</em> Canción de pájareros</a></td><td style="text-align: right;">400</td></tr>
+  <tr><td><a href="#sg2_8">VIII. Invocación de Shompallwe</a></td><td style="text-align: right;">401</td></tr>
+</table>
+
+</div>
+
+<div id="images" class="w3-center">
+
+  <h1 id="intro" class="w3-padding-32">Lecturas Araucanas</h1>
+    <div class="w3-card w3-padding-32"><img src="imgs/a001.jpg" alt="" style="width:96%"></div>
+    <div class="w3-card w3-padding-32"><img src="imgs/a002.jpg" alt="" style="width:96%"></div>
+    <div class="w3-card w3-padding-32"><img src="imgs/a003.jpg" alt="" style="width:96%"></div>
+  <h1 id="pro" class="w3-padding-32">Prólogo y advertencias de la obra</h1>
+  <h2 id="pro1" class="w3-padding-32">I. Objecto y fin de la obra</h2>
+    <div class="w3-card w3-padding-32"><img src="imgs/a004.jpg" alt="" style="width:96%"></div>
+    <div class="w3-card w3-padding-32"><img src="imgs/a005.jpg" alt="" style="width:96%"></div>
+  <h2 id="pro1" class="w3-padding-32">II. Origen y División</h2>
+    <div class="w3-card w3-padding-32"><img src="imgs/a006.jpg" alt="" style="width:96%"></div>
+    <div class="w3-card w3-padding-32"><img src="imgs/a007.jpg" alt="" style="width:96%"></div>
+  <h2 id="pro1" class="w3-padding-32">III. Fonética, ortografía</h2>
+    <div class="w3-card w3-padding-32"><img src="imgs/a008.jpg" alt="" style="width:96%"></div>
+    <div class="w3-card w3-padding-32"><img src="imgs/a009.jpg" alt="" style="width:96%"></div>
+    <div class="w3-card w3-padding-32"><img src="imgs/a010.jpg" alt="" style="width:96%"></div>
+    <div class="w3-card w3-padding-32"><img src="imgs/a011.jpg" alt="" style="width:96%"></div>
+    <div class="w3-card w3-padding-32"><img src="imgs/a012.jpg" alt="" style="width:96%"></div>
+  <h1 id="ind" class="w3-padding-32">Índice</h1>
+    <div class="w3-card w3-padding-32"><img src="imgs/a013.jpg" alt="" style="width:96%"></div>
+    <div class="w3-card w3-padding-32"><img src="imgs/a014.jpg" alt="" style="width:96%"></div>
+    <div class="w3-card w3-padding-32"><img src="imgs/a015.jpg" alt="" style="width:96%"></div>
+    <div class="w3-card w3-padding-32"><img src="imgs/a016.jpg" alt="" style="width:96%"></div>
+
+
+
+<h1 id="01">I. PARTE: ALGUNAS COSTUMBRES DE LOS ARAUCANOS.</h1>
+<h2 id="01_1">1. Rogativas como las solían hacer los indios de la costa etc.</h2> <!--p. 3-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b002.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b003.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b004.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b005.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b006.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b007.jpg" alt="" style="width:96%"></div>
+<h2 id="01_2">2. Una visión de una machi</h2> <!--p. 8-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b008.jpg" alt="" style="width:96%"></div>
+<h2 id="01_3">3. Sueños visionarios</h2> <!--p. 9-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b009.jpg" alt="" style="width:96%"></div>
+<h2 id="01_4">4. Entierro</h2> <!--p. 10-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b010.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b011.jpg" alt="" style="width:96%"></div>
+<h2 id="01_5">5. Pichi weupin. Parlamento chico</h2> <!--p. 12-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b012.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b013.jpg" alt="" style="width:96%"></div>
+<h2 id="01_6">6. Fùchá weupin. Parlamento grande</h2> <!--p. 14-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b014.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b015.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b016.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b017.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b018.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b019.jpg" alt="" style="width:96%"></div>
+<h2 id="01_6">6. Fabricación de la chicha de maíz</h2> <!--p. 20-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b020.jpg" alt="" style="width:96%"></div>
+<h2 id="01_7">7. Rùŋkùchallwan. Pesca con la lanza tridente</h2> <!--p. 21-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b021.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b022.jpg" alt="" style="width:96%"></div>
+<h2 id="01_8">8. Məñutu</h2> <!--p. 23-->
+<h2 id="01_9">9. Nùyùn. Temblor</h2> <!--p. 23-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b023.jpg" alt="" style="width:96%"></div>
+<h2 id="01_10">10. Imprecaciones etc.</h2> <!--p. 24-->
+<h2 id="01_11">11. Orígen de las rogativas</h2> <!--p. 24-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b024.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b025.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b026.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b027.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b028.jpg" alt="" style="width:96%"></div>
+<h2 id="01_12">12. Aillarewe. Convocación al gran ŋillatun y ritual del mismo</h2> <!--p. 29-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b029.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b030.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b031.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b032.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b033.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b034.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b035.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b036.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b037.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b038.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b039.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b040.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b041.jpg" alt="" style="width:96%"></div>
+<h2 id="01_13">13. Invocación de un pájaro</h2> <!--p. 42-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b042.jpg" alt="" style="width:96%"></div>
+<h2 id="01_14">14. Quejas de un enfermo</h2> <!--p. 43-->
+<h2 id="01_15">15. Awar kuden, el juego de habas</h2> <!--p. 43-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b043.jpg" alt="" style="width:96%"></div>
+<h2 id="01_16">16. Explicación de los términos katrù y koncho</h2> <!--p. 44-->
+<h2 id="01_17">17. Las estaciones del año</h2> <!--p. 44-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b044.jpg" alt="" style="width:96%"></div>
+<h2 id="01_18">18. La fiesta de las máscaras</h2> <!--p. 45-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b045.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b046.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b047.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b050.jpg" alt="" style="width:96%"></div>
+
+
+<h1 id="02">II. PARTE. RELACIONES MODERNAS.</h1>
+<h2 id="02_1">1. Impresiones que el ciego José Francisco Kolùñ etc.</h2> <!--p. 51-->
+<h2 id="02_2">2. Discursos, que se pronunciaron en una reunión etc.</h2> <!--p. 54-->
+<h2 id="02_3">3. Quejas de una viuda.</h2> <!--p. 63-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b051.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b052.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b053.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b054.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b055.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b056.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b057.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b058.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b059.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b060.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b061.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b062.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b063.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b064.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b065.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b066.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b067.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b070.jpg" alt="" style="width:96%"></div>
+
+<h1 id="03">III. PARTE. CUENTOS.</h1>
+<h2 id="03_1">1. El caballo blanco</h2> <!--p. 71-->
+<h2 id="03_2">2. Morcilla</h2> <!--p. 77-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b071.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b072.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b073.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b074.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b075.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b076.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b077.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b078.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b079.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b080.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b081.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b082.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b083.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b084.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b085.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b086.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b087.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b088.jpg" alt="" style="width:96%"></div>
+<h2 id="03_3">3. Un huinca viejo y una señora vieja</h2> <!--p. 89-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b089.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b090.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b091.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b092.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b093.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b094.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b095.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b096.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b097.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b098.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b099.jpg" alt="" style="width:96%"></div>
+<h2 id="03_4">4. El zorro aprende á cantar</h2> <!--p. 100-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b100.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b101.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b102.jpg" alt="" style="width:96%"></div>
+<h2 id="03_5">5. El ratón</h2> <!--p. 103-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b103.jpg" alt="" style="width:96%"></div>
+<h2 id="03_6">6. Menoko</h2> <!--p. 104-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b104.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b105.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b106.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b107.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b108.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b109.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b110.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b111.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b112.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b113.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b114.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b116.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b117.jpg" alt="" style="width:96%"></div>
+<h2 id="03_7">7. Dios se lo pague</h2> <!--p. 118-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b118.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b119.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b120.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b121.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b122.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b123.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b124.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b125.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b126.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b127.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b128.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b129.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b130.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b131.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b132.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b133.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b134.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b135.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b136.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b137.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b138.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b139.jpg" alt="" style="width:96%"></div>
+<h2 id="03_8">8. El chingue machi</h2> <!--p. 140-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b140.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b141.jpg" alt="" style="width:96%"></div>
+<h2 id="03_9">9. Más vale maña que fuerza</h2> <!--p. 142-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b142.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b143.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b144.jpg" alt="" style="width:96%"></div>
+<h2 id="03_10">10. Entre brujos antropófagos</h2> <!--p. 145-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b145.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b146.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b147.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b148.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b149.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b150.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b151.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b152.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b153.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b154.jpg" alt="" style="width:96%"></div>
+<h2 id="03_11">11. La suma causa</h2> <!--p. 155-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b155.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b156.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b157.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b160.jpg" alt="" style="width:96%"></div>
+
+
+<h1 id="04">IV. PARTE. CANCIONES.</h1>
+<h2 id="04_1">1. Canciones Ref. por María Francisca Painemilla de Wapi</h2> <!--p. 162-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b161.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b162.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b163.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b164.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b165.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b166.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b167.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b168.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b169.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b170.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b171.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b172.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b173.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b174.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b176.jpg" alt="" style="width:96%"></div>
+<h1 id="05">V. PARTE. CARTAS.</h1>
+<h2 id="05_1">. Carta que nos ha dictado el joven Kurùnamko etc.</h2> <!--p. 177-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b177.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b178.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b179.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b180.jpg" alt="" style="width:96%"></div>
+<h2 id="05_2">. Lo que el caciquillo Wénchukoy de Wapi etc.</h2> <!--p. 181-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b181.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b182.jpg" alt="" style="width:96%"></div>
+<h2 id="05_3">. Lo que el preceptor de la escuela Misional etc.</h2> <!--p. 183-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b183.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b184.jpg" alt="" style="width:96%"></div>
+<h2 id="05_4">. Carta de Isabel Painemilla etc.</h2> <!--p. 185-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b185.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b186.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b188.jpg" alt="" style="width:96%"></div>
+
+
+<h1 id="06">VI. PARTE. VARIEDADES.</h1>
+<h2 id="06_1">1. Robo de un chancho</h2> <!--p. -->
+  <h3 id="06_1a">Primera versión</h3> <!--p. 189-->
+
+        <div class="w3-card w3-padding-32"><img src="imgs/b189.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b190.jpg" alt="" style="width:96%"></div>
+<h3 id="06_1b">Segunda versión</h3> <!--p. 191-->
+<h3 id="06_1c">Tercera versión</h3> <!--p. 193-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b191.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b192.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b193.jpg" alt="" style="width:96%"></div>
+<h2 id="06_2">2. Un pleito</h2> <!--p. 194-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b194.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b195.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b196.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b197.jpg" alt="" style="width:96%"></div>
+<h2 id="06_3">3. Un pobre loco</h2> <!--p. 198-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b198.jpg" alt="" style="width:96%"></div>
+<h2 id="06_4">4. La muerte de un caballo</h2> <!--p. 199-->
+<h2 id="06_5">5. Sucesos en el camino</h2> <!--p. 199-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b199.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b200.jpg" alt="" style="width:96%"></div>
+<h2 id="06_6">6. Crecimiento del haba, del maíz, de la arveja y del trigo</h2> <!--p. 201-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b201.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b202.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b203.jpg" alt="" style="width:96%"></div>
+<h2 id="06_7">7. Afkentun</h2> <!--p. 204-->
+<h2 id="06_8">8. Malma ŋelu, pramuwn ŋelu</h2> <!--p. 204-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b204.jpg" alt="" style="width:96%"></div>
+<h2 id="06_9">9. Kishu ŋenéwn ŋei</h2> <!--p. 205-->
+<h2 id="06_10">10. Dakeltun</h2> <!--p. 205-->
+<h2 id="06_11">11. Feyélfeyeltun</h2> <!--p. 205-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b205.jpg" alt="" style="width:96%"></div>
+<h2 id="06_12">12. Pleito</h2> <!--p. 206-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b206.jpg" alt="" style="width:96%"></div>
+<h2 id="06_13">13. Una traducción al araucano</h2> <!--p. 207-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b207.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b208.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b209.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b210.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b212.jpg" alt="" style="width:96%"></div>
+
+
+
+<h1 id="07">VII. PARTE. CÁNTICOS RELIGIOSOS.</h1>
+<h2>compuestos por el autor de este libro.</h2> <!--p. 213-->
+<h2 id="07_1">1. Pewùŋen. Primavera</h2> <!--213-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b213.jpg" alt="" style="width:96%"></div>
+<h2 id="07_2">2. Eymi Santa</h2> <!--214-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b214.jpg" alt="" style="width:96%"></div>
+<h2 id="07_2">2. Kùpamn, itrokom che</h2> <!--215-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b215.jpg" alt="" style="width:96%"></div>
+<h2 id="07_3">3. Por tí, oh dulce Virgen</h2> <!--216-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b216.jpg" alt="" style="width:96%"></div>
+<h2 id="07_5">5. Kesús, ñi duam.</h2> <!--217-->
+<h2 id="07_6">6. Adoración del Pan Eucarístico.</h2> <!--217-->
+<h2 id="07_7">7. Sea alabado nuestro Jesús.</h2> <!--217-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b217.jpg" alt="" style="width:96%"></div>
+<h2 id="07_8">8. Como prenda de mi amor.</h2> <!--218-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b218.jpg" alt="" style="width:96%"></div>
+<h2 id="07_9">9. Para la Pascua de Natividad.</h2> <!--219-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b219.jpg" alt="" style="width:96%"></div>
+<h2 id="07_10">10. Kiñewn ùlkantuaimn.</h2> <!--220-->
+<h2 id="07_11">11. Un dios por galardon.</h2> <!--220-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b220.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b221.jpg" alt="" style="width:96%"></div>
+
+<h1 id="ap">Apendice.</h1>
+        <div class="w3-card w3-padding-32"><img src="imgs/b224.jpg" alt="" style="width:96%"></div>
+
+<h2  id="ap1">Algunas observaciones sobre las rogativas</h2> <!--p. 225-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b225.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b226.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b227.jpg" alt="" style="width:96%"></div>
+<h2  id="ap2">El rehue (réwe), ngueicurehuenn (ŋeikureweun)</h2> <!--p. 228-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b228.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b229.jpg" alt="" style="width:96%"></div>
+<h2  id="ap3">Averiguación histórica sobre las ideas religiosas de los araucanos y sus manifestaciones cultuales.</h2> <!--p. 230-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b230.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b231.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b232.jpg" alt="" style="width:96%"></div>
+<h2  id="ap4">I. P. Luís de Valdivia, S. J.</h2> <!--p. 233-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b233.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b234.jpg" alt="" style="width:96%"></div>
+<h2  id="ap5">Observaciones</h2> <!--p. 235-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b235.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b236.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b237.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b238.jpg" alt="" style="width:96%"></div>
+<h2  id="ap6">II. P. Diego de Rosales, S. J.</h2> <!--p. 239-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b239.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b240.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b241.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b242.jpg" alt="" style="width:96%"></div>
+<h2  id="ap7">III. P. Bernardo Havestadt, S. J.</h2> <!--p. 243-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b243.jpg" alt="" style="width:96%"></div>
+<h2  id="ap8">Observaciones sobre los datos extraídos de las obras del P. de Rosales y del P. Havestadt</h2> <!--p. 244-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b244.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b245.jpg" alt="" style="width:96%"></div>
+<h2  id="ap9">IV. Storie delle Missioni Apostoliche dello stato del Chile. Opera di Giuseppe Salustj</h2> <!--p. 246-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b246.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b247.jpg" alt="" style="width:96%"></div>
+<h2  id="ap10">Observaciones. Estudio sobre el Pillañ</h2> <!--p. 248-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b248.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b249.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b250.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b251.jpg" alt="" style="width:96%"></div>
+<h2  id="ap11">V. L' Araucanía, Memorie inedite delle Missioni dei F. F. M. M. Capuccini nel Chile</h2> <!--p. 252-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b252.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b253.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b254.jpg" alt="" style="width:96%"></div>
+<h2  id="ap12">VI. Del manuscrito inédito de una gramática araucana, comp. por el Misionero Capuchino RP. Octaviano de Nizza</h2> <!--p. 255-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b255.jpg" alt="" style="width:96%"></div>
+<h2  id="ap13">Observaciones</h2> <!--p. 256-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b256.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b257.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b258.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b259.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b260.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b261.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b262.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b263.jpg" alt="" style="width:96%"></div>
+<h2  id="ap14">Influencias que deben tomarse en cuenta al estimar la lenta marcha de la cristianización de los indios.</h2> <!--p. 259-->
+<h2  id="ap15">La invocación de los espíritus</h2> <!--p. 264-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b264.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b265.jpg" alt="" style="width:96%"></div>
+<h2  id="ap16">Las palabras pom, o ó, om, o om</h2> <!--p. 266-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b266.jpg" alt="" style="width:96%"></div>
+<h2  id="ap17">Yapepùllin</h2> <!--p. 267-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b267.jpg" alt="" style="width:96%"></div>
+<h2  id="ap18">Treŋtreŋ</h2> <!--p. 268-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b268.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b269.jpg" alt="" style="width:96%"></div>
+<h2  id="ap19">Ashŋellkawellun</h2> <!--p. 270-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b270.jpg" alt="" style="width:96%"></div>
+<h2  id="ap20">Ad Məñutu, pg. 23</h2> <!--p. 271-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b271.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b273.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b274.jpg" alt="" style="width:96%"></div>
+
+<h1 id="sg">TEXTOS RECOGIDOS POR EL RP. SIGIFREDO DE FRAUNHÆUSL.</h1>
+<h1 id="sg1">I. PARTE. PROSA.</h1>
+        <div class="w3-card w3-padding-32"><img src="imgs/b275.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b276.jpg" alt="" style="width:96%"></div>
+<h2 id="sg1_1">1. Desafío entre cuadrúpedos é insectos</h2> <!--p. 275-->
+<h2 id="sg1_2">2. Una tragedia</h2> <!--p. 277-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b277.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b278.jpg" alt="" style="width:96%"></div>
+<h2 id="sg1_3">3. La casa encantada</h2> <!--p. 279-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b279.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b280.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b281.jpg" alt="" style="width:96%"></div>
+<h2 id="sg1_4">4. El hijo del sol</h2> <!--p. 282-->
+<h2 id="sg1_5">5. El zorro y el chingue</h2> <!--p. 283-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b282.jpg" alt="" style="width:96%"></div>
+<h2 id="sg1_6">6. Discurso del sacerdote al inaugurar unas rogativas</h2> <!--p. 285-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b283.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b284.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b285.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b286.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b287.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b288.jpg" alt="" style="width:96%"></div>
+<h2 id="sg1_7">7. ŋillatunkamañ ñi ŋùlámtuken rupan trawn déuma</h2> <!--p. 289-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b289.jpg" alt="" style="width:96%"></div>
+<h2 id="sg1_8">8. Kallfù malen y kallfù wentru</h2> <!--p. 290-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b290.jpg" alt="" style="width:96%"></div>
+<h2 id="sg1_9">9. Dos parlamentos grandes (weupin)</h2> <!--p. 291-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b291.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b292.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b293.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b294.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b295.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b296.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b297.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b298.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b299.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b300.jpg" alt="" style="width:96%"></div>
+
+<h2 id="sg1_10">10. Iñche ñi kuifike che yem ñi dəŋu</h2> <!--p. 301-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b301.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b302.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b303.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b306.jpg" alt="" style="width:96%"></div>
+
+<h1 id="sg2">II. PARTE. CANCIONES.</h1>
+<h2 id="sg2_intro">Introducción á las canciones</h2> <!--p. 307-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b307.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b308.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b309.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b310.jpg" alt="" style="width:96%"></div>
+<h2 id="sg2_1">I. Elegías (78)</h2> <!--p. 311-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b311.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b312.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b313.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b314.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b315.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b316.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b317.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b318.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b319.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b320.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b321.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b322.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b323.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b324.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b325.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b326.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b327.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b328.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b329.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b330.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b331.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b332.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b333.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b334.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b335.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b336.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b337.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b338.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b339.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b340.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b341.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b342.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b343.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b344.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b345.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b346.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b347.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b348.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b349.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b350.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b351.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b352.jpg" alt="" style="width:96%"></div>
+<h2 id="sg2_2">II. Canciones de machi (58)</h2> <!--p. 353-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b353.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b354.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b355.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b356.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b357.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b358.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b359.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b360.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b361.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b362.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b363.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b364.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b365.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b366.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b367.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b368.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b369.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b370.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b371.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b372.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b373.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b374.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b375.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b376.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b377.jpg" alt="" style="width:96%"></div>
+<h2 id="sg2_3">III. Canciones de máscaras etc. (37)</h2> <!--p. 378-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b378.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b379.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b381.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b382.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b383.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b384.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b385.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b386.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b387.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b388.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b389.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b390.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b391.jpg" alt="" style="width:96%"></div>
+<h2 id="sg2_4">IV. Paliwe ùl. Canciones de chueca</h2> <!--p. 392-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b392.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b393.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b394.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b395.jpg" alt="" style="width:96%"></div>
+<h2 id="sg2_5">V. Awar-kudewe ùl. Canción de juego de habas</h2> <!--p. 396-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b396.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b397.jpg" alt="" style="width:96%"></div>
+<h2 id="sg2_6">VI. Ñuwiñ ùl. Canciones de trilla</h2> <!--p. 398-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b398.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b399.jpg" alt="" style="width:96%"></div>
+<h2 id="sg2_7">VII. ŋawiwe ùl. Canción de pájareros</h2> <!--p. 400-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b400.jpg" alt="" style="width:96%"></div>
+<h2 id="sg2_8">VIII. Invocación de Shompallwe</h2> <!--p. 401-->
+        <div class="w3-card w3-padding-32"><img src="imgs/b401.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b402.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b403.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b404.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b405.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b406.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b407.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b408.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b409.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b410.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b411.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b412.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b413.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b414.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b415.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b416.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b417.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b418.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b419.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b420.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b421.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b422.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b423.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b424.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b425.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b426.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b427.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b428.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b429.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b430.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b431.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b432.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b433.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b434.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b435.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b436.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b437.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b438.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b439.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b440.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b441.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b442.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b443.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b444.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b445.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b447.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b448.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b449.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b450.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b451.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b452.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b453.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b454.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b455.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b456.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b457.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b458.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b459.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b460.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b461.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b462.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b463.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b464.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b465.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b466.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b467.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b468.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b469.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b470.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b471.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b472.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b473.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b474.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b475.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b476.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b477.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b478.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b479.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b480.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b481.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b482.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b483.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b484.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b485.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b486.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b487.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b488.jpg" alt="" style="width:96%"></div>
+        <div class="w3-card w3-padding-32"><img src="imgs/b489.jpg" alt="" style="width:96%"></div>
+  
+
+
+
+
+
+
+
+
+
+
+ 	</div>
+ 
+</div>
+
+
+<footer class="w3-container w3-blue w3-center">
+  <p>Lenz, R. (1895). <i>Estudios araucanos. Materiales para el estudio de la lengua, la literatura i las costumbres de los indios mapuche o araucanos.</i> Imprenta Cervantes.
+</p>
+</footer>
+
+<script src="../assets/mobilenavigation.js"></script>
+
+
+
+</body>
+</html> 

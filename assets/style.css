@@ -35,3 +35,32 @@ body {background:#eee;}
   margin-left: auto;
   margin-right: auto;
 }
+
+/* ==========================================================================
+   Flexbox Fix: Forces W3.CSS grid cards to wrap to the same vertical height
+   ========================================================================== */
+
+/* 1. Turn the grid row container into a flexbox layout */
+.w3-row-padding {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 2. Ensure each grid column passes the full height down to the card */
+.w3-row-padding .w3-quarter {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 3. Make the card fill 100% height of its column container */
+.w3-row-padding .w3-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%; 
+}
+
+/* 4. Force the text container to expand and push backgrounds to the bottom */
+.w3-row-padding .w3-card .w3-container {
+  flex-grow: 1;
+}
